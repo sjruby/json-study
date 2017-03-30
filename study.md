@@ -50,7 +50,27 @@ A kitchen has many items.
     rack, and cinnamon, nutmeg, and vanilla on another shelf.
 
 ```json
-<!-- your answer here -->
+<!--
+{"kitchen" : {
+  "cuboard" :{
+    "bowls": "red",
+    "plates": "green"
+  },
+    "electricStove":{
+      "heatingElement": ["small", "medium, ""large", "extraLarge"]
+    },
+    "herbRack1":{
+      "chives": "gross",
+      "lemonGrass": "yum",
+      "mint":"super"
+    },
+    "herbRack2":{
+      "cinimaon": "gross",
+      "nutmeg": "yum",
+      "vanilla":"super"
+    }
+  }
+  } -->
 ```
 
 ## Modeling Data Using JSON: Part II
@@ -62,7 +82,29 @@ delicious apple.
 Copy the JSON that you wrote for the previous question and include the new information about the kitchen.
 
 ```json
-<!-- your answer here -->
+<!-- {"kitchen" : {
+  "cuboard" :{
+    "bowls": "red",
+    "plates": "green"
+  },
+    "electricStove":{
+      "heatingElement": ["small", "medium, ""large", "extraLarge"]
+    },
+    "herbRack1":{
+      "chives": "gross",
+      "lemonGrass": "yum",
+      "mint":"super"
+    },
+    "herbRack2":{
+      "cinimaon": "gross",
+      "nutmeg": "yum",
+      "vanilla":"super"
+    },
+    "fujiApples": 2,
+    "galaApples": 7,
+    "goldenDelicousApples": 1
+  }
+  }  -->
 ```
 
 ## JSON Methods
@@ -70,7 +112,7 @@ Copy the JSON that you wrote for the previous question and include the new infor
 Can you write a method in the JSON that you wrote above?
 
 ```json
-<!-- your answer here -->
+<!-- No b/c as it says on line 31 JSON does not support methods-->
 ```
 
 ## JSON Comments
@@ -78,5 +120,5 @@ Can you write a method in the JSON that you wrote above?
 Can you write comments in the JSON that you wrote above?
 
 ```json
-<!-- your answer here -->
+<!-- No b/c on line 30 it say's JSO -->
 ```
